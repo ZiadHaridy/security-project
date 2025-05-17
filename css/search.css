@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin:400);
+
+.courses {
+    background-color: #34016d;
+}
+.webdesigntuts-workshop {
+	height: 100%;
+	text-align: center;
+	width: 100%;
+    zoom:6;
+    zoom: 1.6;
+
+}
+
+.webdesigntuts-workshop:before,
+.webdesigntuts-workshop:after {
+	content: '';
+	display: block;	
+	height: 1px;
+	left: 50%;
+	margin: 100px 0 0 -100px;
+	position: absolute;
+	width: 800px;
+}
+
+
+
+.webdesigntuts-workshop form {
+	display: inline-block;
+	font-size: 0px;
+	margin: 0px auto 0;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+}
+
+.webdesigntuts-workshop input {
+	background: #fff;	
+	background: linear-gradient(#333, #222);	
+	border: 1px solid rgb(36, 0, 240);
+	border-radius: 5px 0 0 5px;
+	color: #fff;
+	display: block;
+	float: left;
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	height: 40px;
+	margin: 0;
+	padding: 0 10px;
+	text-shadow: 0 -1px 0 #000;
+	width: 200px;
+}
+
+.ie .webdesigntuts-workshop input {
+	line-height: 40px;
+}
+
+.webdesigntuts-workshop input::-webkit-input-placeholder {
+   color: #fff;
+}
+
+.webdesigntuts-workshop input:-moz-placeholder {
+   color: #fff;
+}
+
+.webdesigntuts-workshop input:focus {
+	animation: glow 800ms ease-out infinite alternate;
+	background: #ffffff;
+	background: linear-gradient(#333933, #222922);
+	border-color: rgb(61, 8, 217);
+	color: #efe;
+	outline: none;
+}
+
+.webdesigntuts-workshop input:focus::-webkit-input-placeholder { 
+	color: #efe;
+}
+
+.webdesigntuts-workshop input:focus:-moz-placeholder {
+	color: #efe;
+}
+
+.webdesigntuts-workshop button {
+	background: #fff;
+	background: linear-gradient(#333, #222);
+	box-sizing: border-box;
+	border-radius: 0 5px 5px 0;
+	color: #fff;
+	display: block;
+	float: left;
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-shadow: 0 -1px 0 rgb(23, 11, 148);
+	width: 80px;
+}	
+
+.webdesigntuts-workshop button:hover,
+.webdesigntuts-workshop button:focus {
+	background: #3a06d6;
+	background: linear-gradient(#393939, #292929);
+	color: rgb(61, 8, 217);
+	outline: none;
+}
+
+.webdesigntuts-workshop button:active {
+	background: #4808de;
+	background: linear-gradient(#0427c6, #34016d);
+	top: 1px;
+}
+
+@keyframes glow {
+    0% {
+		border-color: rgb(61, 8, 217);;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(58, 3, 255, 0.1), 0 2px 0 rgb(25, 1, 236);
+    }	
+    100% {
+		border-color: rgb(84, 0, 252);
+		box-shadow: 0 0 20px rgba(14, 18, 255, 0.6), inset 0 0 10px rgba(115, 0, 255, 0.4), 0 2px 0 #000;
+    }
+}
